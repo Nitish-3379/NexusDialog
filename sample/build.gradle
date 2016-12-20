@@ -13,13 +13,13 @@ repositories {
 }
 
 android {
-    compileSdkVersion 23
+    compileSdkVersion 22
     buildToolsVersion "23.0.3"
 
     defaultConfig {
         applicationId "com.github.dkharrat.nexusdialog.sample"
-        minSdkVersion 10
-        targetSdkVersion 23
+        minSdkVersion 11
+        targetSdkVersion 22
         versionCode 1
         versionName "1.0"
     }

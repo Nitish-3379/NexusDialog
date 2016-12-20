@@ -80,7 +80,7 @@ public class FragmentFormActivity extends FragmentActivity {
 
         @Override
         public void initForm(FormController controller) {
-            Context ctxt = getContext();
+            Context ctxt = getActivity();
             FormSectionController section = new FormSectionController(ctxt, "Personal Info");
             section.addElement(new EditTextController(ctxt, FIRST_NAME, "First name"));
             section.addElement(new EditTextController(ctxt, LAST_NAME, "Last name"));
